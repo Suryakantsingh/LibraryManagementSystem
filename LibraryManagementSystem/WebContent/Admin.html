@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Page</title>
+    <p>Admin Page</p>
+</head>
+<body>
+<p><b>ADD NEW BOOK</b></p>
+<form action="/AdminService/add" method="post"  enctype="multipart/form-data">
+    BookName:<br> <input type="text" name="name" id="name" /><br>
+    URI:<br> <input type="url" name="uri" id="uri" /><br>
+    Thumbnail:<br><input type="file" name="thumbnail" id="thumbnail"/></br>
+    Author:<br><input type="text" name="author" id="author"/></br></br>
+    Price:<br><input type="text" name="price" id="price" /><br><br>
+    <input type="submit" name="Add" value="Add"/>
+</form>
+
+</body>
+</html>
